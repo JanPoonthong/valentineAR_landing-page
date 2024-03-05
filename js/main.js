@@ -154,12 +154,9 @@
                             divHeight = _this.find("li").height();
                         _this.height(divHeight);
                         if (value <= 9) {
-                            _this
-                                .find("ul")
-                                .css({
-                                    transform:
-                                        "translateY(-" + value * 10 + "%)",
-                                });
+                            _this.find("ul").css({
+                                transform: "translateY(-" + value * 10 + "%)",
+                            });
                         }
                     });
             }
@@ -1505,12 +1502,10 @@
     /****** Hamburger menu animation with collapse ******/
     $(".menu-toggle").each(function (index) {
         var _this = $(this);
-        _this
-            .addClass("collapsed")
-            .attr({
-                "data-bs-toggle": "collapse",
-                "data-bs-target": "#sub-menu-" + index,
-            });
+        _this.addClass("collapsed").attr({
+            "data-bs-toggle": "collapse",
+            "data-bs-target": "#sub-menu-" + index,
+        });
         _this
             .parent()
             .find(".sub-menu-item")
@@ -2461,13 +2456,11 @@
         if ($(".box-layout").length > 0 && $(".footer-sticky").length > 0) {
             var boxLayoutObj = $(".box-layout"),
                 boxLayoutwidth = boxLayoutObj.width();
-            boxLayoutObj
-                .find(".footer-sticky")
-                .css({
-                    margin: "0 auto",
-                    width: boxLayoutwidth,
-                    "max-width": boxLayoutwidth,
-                });
+            boxLayoutObj.find(".footer-sticky").css({
+                margin: "0 auto",
+                width: boxLayoutwidth,
+                "max-width": boxLayoutwidth,
+            });
         }
     }
 
