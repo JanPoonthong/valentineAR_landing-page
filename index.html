@@ -1268,19 +1268,16 @@
                         <a href="blog-metro.html" class="blog-category alt-font"
                           >Concept</a
                         >
-                      </div>
-                      <div class="align-self-end w-100">
-                        <a
-                          href="blog-metro.html"
-                          class="alt-font font-weight-500 text-small d-inline-block text-white text-uppercase opacity-6 margin-10px-bottom"
-                          >10 September 2019</a
+                            <h4
+                                class="alt-font font-weight-600 text-white mb-0"
+                            >
+                                Team
+                            </h4>
+                        </div>
+                        <div
+                            class="col-lg-6 col-sm-4 text-center text-sm-end wow animate__fadeIn"
+                            data-wow-delay="0.2s"
                         >
-                        <a
-                          href="blog-post-layout-01.html"
-                          class="alt-font text-white text-extra-large mb-0 d-block w-85 xl-w-100"
-                          >People ignore design that ignores people</a
-                        >
-                      </div>
                     </div>
                   </div>
                 </li>
@@ -1314,7 +1311,78 @@
                           class="alt-font text-white text-extra-large mb-0 d-block w-85 xl-w-100"
                           >Everything designed things are designed</a
                         >
-                      </div>
+                            <ul
+                                class="blog-metro blog-wrapper grid grid-loading grid-3col xl-grid-3col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-large"
+                            >
+                                <li class="grid-sizer"></li>
+                                <!-- start blog item -->
+                                <li
+                                    class="grid-item last-paragraph-no-margin wow animate__fadeIn"
+                                    data-wow-delay="0.2s"
+                                >
+                                    <div class="blog-post">
+                                        <div
+                                            class="blog-post-image bg-dark-slate-blue"
+                                        >
+                                            <img
+                                                src="https://via.placeholder.com/800x800"
+                                                alt=""
+                                            />
+                                            <div class="blog-overlay"></div>
+                                        </div>
+                                        <div
+                                            class="post-details d-flex flex-column align-item-start padding-3-half-rem-all xl-padding-3-rem-all"
+                                        >
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- end blog item -->
+                                <!-- start blog item -->
+                                <li
+                                    class="grid-item last-paragraph-no-margin wow animate__fadeIn"
+                                    data-wow-delay="0.4s"
+                                >
+                                    <div class="blog-post">
+                                        <div
+                                            class="blog-post-image bg-dark-slate-blue"
+                                        >
+                                            <img
+                                                src="https://via.placeholder.com/800x800"
+                                                alt=""
+                                            />
+                                            <div class="blog-overlay"></div>
+                                        </div>
+                                        <div
+                                            class="post-details d-flex flex-column align-item-start padding-3-half-rem-all xl-padding-3-rem-all"
+                                        >
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- end blog item -->
+                                <!-- start blog item -->
+                                <li
+                                    class="grid-item last-paragraph-no-margin wow animate__fadeIn"
+                                    data-wow-delay="0.6s"
+                                >
+                                    <div class="blog-post">
+                                        <div
+                                            class="blog-post-image bg-dark-slate-blue"
+                                        >
+                                            <img
+                                                src="https://via.placeholder.com/800x800"
+                                                alt=""
+                                            />
+                                            <div class="blog-overlay"></div>
+                                        </div>
+                                        <div
+                                            class="post-details d-flex flex-column align-item-start padding-3-half-rem-all xl-padding-3-rem-all"
+                                        >
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- end blog item -->
+                            </ul>
+                        </div>
                     </div>
                   </div>
                 </li>
@@ -1462,77 +1530,74 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script> -->
 
-    <script type="text/javascript">
-      var revapi263, tpj;
-      (function () {
-        if (!/loaded|interactive|complete/.test(document.readyState))
-          document.addEventListener("DOMContentLoaded", onLoad);
-        else onLoad();
-        function onLoad() {
-          if (tpj === undefined) {
-            tpj = jQuery;
-            if ("off" == "on") tpj.noConflict();
-          }
-          if (tpj("#rev_slider_33_1").revolution == undefined) {
-            revslider_showDoubleJqueryError("#rev_slider_33_1");
-          } else {
-            revapi263 = tpj("#rev_slider_33_1")
-              .show()
-              .revolution({
-                sliderType: "standard",
-                jsFileLocation: "revolution/js/",
-                sliderLayout: "fullscreen",
-                dottedOverlay: "none",
-                delay: 9000,
-                navigation: {
-                  keyboardNavigation: "on",
-                  keyboard_direction: "horizontal",
-                  mouseScrollNavigation: "off",
-                  mouseScrollReverse: "default",
-                  onHoverStop: "off",
-                  touch: {
-                    touchenabled: "on",
-                    touchOnDesktop: "on",
-                    swipe_threshold: 75,
-                    swipe_min_touches: 1,
-                    swipe_direction: "horizontal",
-                    drag_block_vertical: false,
-                  },
-                  arrows: {
-                    enable: true,
-                    style: "ares",
-                    // tmp: '<div class="tp-title-wrap"><span class="tp-arr-titleholder">{{title}}</span></div>',
-                    rtl: false,
-                    hide_onleave: false,
-                    hide_onmobile: true,
-                    hide_under: 0,
-                    hide_over: 9999,
-                    hide_delay: 0,
-                    hide_delay_mobile: 0,
-
-                    left: {
-                      container: "slider",
-                      h_align: "left",
-                      v_align: "bottom",
-                      h_offset: 0,
-                      v_offset: 80,
-                    },
-
-                    right: {
-                      container: "slider",
-                      h_align: "right",
-                      v_align: "bottom",
-                      h_offset: 0,
-                      v_offset: 80,
-                    },
-                  },
-                  bullets: {
-                    enable: true,
-                    style: "zeus",
-                    tmp: '<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title">{{title}}</span>',
-                    direction: "horizontal",
-                    rtl: false,
-
+        <script type="text/javascript">
+            var revapi263, tpj;
+            (function () {
+                if (!/loaded|interactive|complete/.test(document.readyState))
+                    document.addEventListener("DOMContentLoaded", onLoad);
+                else onLoad();
+                function onLoad() {
+                    if (tpj === undefined) {
+                        tpj = jQuery;
+                        if ("off" == "on") tpj.noConflict();
+                    }
+                    if (tpj("#rev_slider_33_1").revolution == undefined) {
+                        revslider_showDoubleJqueryError("#rev_slider_33_1");
+                    } else {
+                        revapi263 = tpj("#rev_slider_33_1")
+                            .show()
+                            .revolution({
+                                sliderType: "standard",
+                                jsFileLocation: "revolution/js/",
+                                sliderLayout: "fullscreen",
+                                dottedOverlay: "none",
+                                delay: 9000,
+                                navigation: {
+                                    keyboardNavigation: "on",
+                                    keyboard_direction: "horizontal",
+                                    mouseScrollNavigation: "off",
+                                    mouseScrollReverse: "default",
+                                    onHoverStop: "off",
+                                    touch: {
+                                        touchenabled: "on",
+                                        touchOnDesktop: "on",
+                                        swipe_threshold: 75,
+                                        swipe_min_touches: 1,
+                                        swipe_direction: "horizontal",
+                                        drag_block_vertical: false,
+                                    },
+                                    // arrows: {
+                                    //     enable: true,
+                                    //     style: "ares",
+                                    //     // tmp: '<div class="tp-title-wrap"><span class="tp-arr-titleholder">{{title}}</span></div>',
+                                    //     rtl: false,
+                                    //     hide_onleave: false,
+                                    //     hide_onmobile: true,
+                                    //     hide_under: 0,
+                                    //     hide_over: 9999,
+                                    //     hide_delay: 0,
+                                    //     hide_delay_mobile: 0,
+                                    //     left: {
+                                    //         container: "slider",
+                                    //         h_align: "left",
+                                    //         v_align: "bottom",
+                                    //         h_offset: 0,
+                                    //         v_offset: 80,
+                                    //     },
+                                    //     right: {
+                                    //         container: "slider",
+                                    //         h_align: "right",
+                                    //         v_align: "bottom",
+                                    //         h_offset: 0,
+                                    //         v_offset: 80,
+                                    //     },
+                                    // },
+                                    bullets: {
+                                        enable: true,
+                                        style: "zeus",
+                                        tmp: '<span class="tp-bullet-image"></span><span class="tp-bullet-imageoverlay"></span><span class="tp-bullet-title">{{title}}</span>',
+                                        direction: "horizontal",
+                                        rtl: false,
                     container: "slider",
                     h_align: "center",
                     v_align: "bottom",
